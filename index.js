@@ -1,1 +1,1 @@
-module.exports = (test) => test.toUpperCase();
+module.exports = require("./lib/webget.js")
