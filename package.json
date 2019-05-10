@@ -1,0 +1,30 @@
+{
+  "name": "webget",
+  "version": "0.0.0",
+  "description": "site meta getter",
+  "main": "index.js",
+  "contributors": [
+    "bcrazydreamer <bcrazydreamer@gmail.com>"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "repository": "nepsho/webget",
+  "author": "bcrazydreamer",
+  "homepage": "https://nepsho.github.io/opensource/webget.html",
+  "keywords": [
+    "api",
+    "web",
+    "rest",
+    "webget",
+    "restful",
+    "scraping",
+    "JavaScript"
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
