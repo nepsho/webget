@@ -58,12 +58,12 @@ $ yarn add webget
 ```
 ## Some OpenGraph Meta Tags in HTML
 ```html
-<meta name="og:title" content="The Rock"/>
-<meta name="og:type" content="movie"/>
-<meta name="og:url" content="http://www.imdb.com/title/tt0117500/"/>
-<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:email" content="me@example.com"/>
-<meta name="og:phone_number" content="650-123-4567"/>
+<meta name="og:title" content="WebGet"/>
+<meta name="og:type" content="API"/>
+<meta name="og:url" content="https://nepsho.github.io/"/>
+<meta name="og:image" content="https://nepsho.github.io/lib/img/logo.png"/>
+<meta name="og:email" content="bcrazydreamer@gmail.com"/>
+<meta name="og:phone_number" content="123-456-7890"/>
 ```
 ## Examples
 To get html of any webpage:
