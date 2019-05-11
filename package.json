@@ -1,6 +1,6 @@
 {
   "name": "webget",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "site meta getter",
   "main": "index.js",
   "contributors": [
@@ -29,6 +29,6 @@
     "lib/"
   ],
   "dependencies": {
-    "request": "^2.88.0"
+    "axios": "^0.18.0"
   }
 }

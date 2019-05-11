@@ -6,19 +6,19 @@
 [![npm repository](https://img.shields.io/static/v1.svg?label=Repository&message=GitHub&color=yellow)](https://github.com/nepsho/webget)
 [![npm author](https://img.shields.io/static/v1.svg?label=Author&message=MIT&color=success)](https://www.npmjs.com/~bcrazydreamer)
 
-Promise and callback based website info getter through metadata of website.s
+Promise and callback based website-info getter using metadata of websites
 ## Features
 - Get any web page source code with webget
 - Get any website logo, title and description
-- Supports modren metatag scraping
-- Fully callback and promise oriented
+- Support modren metatag scraping
+- Fully callback and promise based
 - Support with ES6 [async/await](https://en.wikipedia.org/wiki/Async/await)
 - Support multiple metatag scraping
 
 ## Support
-ES5 | ES6 | Callback | Promise |
---- | --- | --- | --- |
-✔|✔|✔|✔
+ES5 | ES6 | Callback | Promise |async/await|
+--- | --- | --- | --- | --- |
+✔|✔|✔|✔|✔|✔
 
 ## Installing 
 [![NPM](https://nodei.co/npm/webget.png?mini=true)](https://nodei.co/npm/webget/)
@@ -92,7 +92,7 @@ async function demo(){
 
 /* Sample output 
     { 
-        status : true,
+        success : true,
         html : "<html></html>"
     }
 */
