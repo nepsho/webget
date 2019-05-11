@@ -20,8 +20,9 @@ ES5 | ES6 | Callback | Promise |
 --- | --- | --- | --- |
 ✔|✔|✔|✔
 
-## Installing
+## Installing 
 [![NPM](https://nodei.co/npm/webget.png?mini=true)](https://nodei.co/npm/webget/)
+
 Using npm:
 ```bash
 $ npm install webget
