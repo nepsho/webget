@@ -1,6 +1,6 @@
 {
   "name": "webget",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "site meta getter",
   "main": "index.js",
   "contributors": [
@@ -25,6 +25,10 @@
   "files": [
     "LICENSE",
     "README.md",
-    "index.js"
-  ]
+    "index.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
