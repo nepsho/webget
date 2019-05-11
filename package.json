@@ -1,6 +1,6 @@
 {
   "name": "webget",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "site meta getter",
   "main": "index.js",
   "contributors": [
