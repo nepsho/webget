@@ -66,6 +66,16 @@ $ yarn add webget
 <meta name="og:email" content="bcrazydreamer@gmail.com"/>
 <meta name="og:phone_number" content="123-456-7890"/>
 ```
+
+## Supported meta fields by webget
+|S. No|a|b|c|d|
+| --- | --- | --- | --- | --- |
+|1|logo|description|title|keywords|subject|
+|2|copyright|language|robots|revised|abstract|
+|3|reply-to|topic|summary|author|designer|
+|4|country-name|url|category|site_name|email|
+|5|phone_number|
+
 ## Examples
 To get html of any webpage:
 ```js
