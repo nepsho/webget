@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/webget.svg?style=flat-square)](https://www.npmjs.org/package/webget)
 [![npm license](https://img.shields.io/static/v1.svg?label=License&message=MIT&color=informational)](https://github.com/nepsho/webget/blob/master/LICENSE)
 [![npm repository](https://img.shields.io/static/v1.svg?label=Repository&message=GitHub&color=yellow)](https://github.com/nepsho/webget)
-[![npm author](https://img.shields.io/static/v1.svg?label=Author&message=MIT&color=success)](https://www.npmjs.com/~bcrazydreamer)
+[![npm author](https://img.shields.io/static/v1.svg?label=Author&message=bcrazydreamer&color=success)](https://www.npmjs.com/~bcrazydreamer)
 
 Promise and callback based website-info getter using metadata of websites
 ## Features
