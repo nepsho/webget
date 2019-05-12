@@ -1,7 +1,7 @@
 {
   "name": "webget",
   "version": "0.0.1",
-  "description": "site meta getter",
+  "description": "callback and promise based site info getter",
   "main": "index.js",
   "contributors": [
     "bcrazydreamer <bcrazydreamer@gmail.com>"
@@ -11,7 +11,10 @@
   },
   "license": "MIT",
   "repository": "nepsho/webget",
-  "author": "bcrazydreamer",
+  "bugs": {
+    "url": "https://github.com/nepsho/webget/issues"
+  },
+  "author": "bcrazydreamer <bcrazydreamer@gmail.com>",
   "homepage": "https://nepsho.github.io/opensource/webget.html",
   "keywords": [
     "api",
