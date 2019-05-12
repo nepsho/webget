@@ -83,12 +83,12 @@ const webget = require("webget")
 ```
 ```js
 /* Callback method */
-webget.gethtml("https://nepsho.github.io/",(data)=>{
+webget.gethtml("https://nepsho.github.io/example/meta_tags.html",(data)=>{
     console.log(data);
 })
 
 /* Promise method */
-webget.gethtml("https://nepsho.github.io/").then(function(data) {
+webget.gethtml("https://nepsho.github.io/example/meta_tags.html").then(function(data) {
 	console.log(data);
 }).catch(function(error) {
 	console.log(error);
@@ -96,7 +96,7 @@ webget.gethtml("https://nepsho.github.io/").then(function(data) {
 
 /* async/await method */
 async function demo(){
-    var result = await webget.gethtml("https://nepsho.github.io/");
+    var result = await webget.gethtml("https://nepsho.github.io/example/meta_tags.html");
     console.log(result);
 } 
 
@@ -116,12 +116,12 @@ var option = [
 ];
 
 /* Callback method */
-webget.getmeta("https://nepsho.github.io/",option,(data)=>{
+webget.getmeta("https://nepsho.github.io/example/meta_tags.html",option,(data)=>{
     console.log(data);
 })
 
 /* Promise method */
-webget.getmeta("https://nepsho.github.io/",option).then(function(data){
+webget.getmeta("https://nepsho.github.io/example/meta_tags.html",option).then(function(data){
     console.log(data)
 }).catch(function(error) {
 	console.log(error);
@@ -129,7 +129,7 @@ webget.getmeta("https://nepsho.github.io/",option).then(function(data){
 
 /* async/await method */
 async function demo(){
-    var result = await webget.getmeta("https://nepsho.github.io/",option);
+    var result = await webget.getmeta("https://nepsho.github.io/example/meta_tags.html",option);
     console.log(result);
 } 
 
