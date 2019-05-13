@@ -1,6 +1,6 @@
 {
   "name": "webget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "callback and promise based site info getter",
   "main": "index.js",
   "contributors": [

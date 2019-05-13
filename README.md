@@ -6,13 +6,13 @@
 [![npm repository](https://img.shields.io/static/v1.svg?label=Repository&message=GitHub&color=yellow)](https://github.com/nepsho/webget)
 [![npm author](https://img.shields.io/static/v1.svg?label=Author&message=bcrazydreamer&color=success)](https://www.npmjs.com/~bcrazydreamer)
 
-Promise and callback based website-info getter using metadata of websites
+**Promise** and **Callback** based website-info getter using meta data of websites.
 ## Features
 - Get any web page source code with webget
 - Get any website logo, title and description
 - Support modren metatag scraping
-- Fully callback and promise based
-- Support with ES6 [async/await](https://en.wikipedia.org/wiki/Async/await)
+- Fully **promise** and **callback** based
+- Support with **ES6** [async/await](https://en.wikipedia.org/wiki/Async/await)
 - Support multiple metatag scraping
 
 ## Support
@@ -23,18 +23,18 @@ ES5 | ES6 | Callback | Promise |async/await|
 ## Installing 
 [![NPM](https://nodei.co/npm/webget.png?mini=true)](https://nodei.co/npm/webget/)
 
-Using npm:
+**Using npm:**
 ```bash
 $ npm install webget
 ```
 
-Using bower:
+**Using bower:**
 
 ```bash
 $ bower install webget
 ```
 
-Using yarn:
+**Using yarn:**
 
 ```bash
 $ yarn add webget
@@ -77,10 +77,11 @@ $ yarn add webget
 |5|phone_number|
 
 ## Examples
-To get html of any webpage:
+
 ```js
 const webget = require("webget")
 ```
+**To get html of any webpage:**
 ```js
 /* Callback method */
 webget.gethtml("https://nepsho.github.io/example/meta_tags.html",(data)=>{
@@ -102,19 +103,28 @@ async function demo(){
 
 /* Sample output 
     { 
+        url : 'https://nepsho.github.io/example/meta_tags.html'
+        status : 200,
         success : true,
         html : "<html></html>"
     }
 */
 ```
 
-To get meta of any webpage:
+**To get meta of any webpage:**
 for meta request a option is required which control and specify the desired output. 
 ```js
-var option = [
+var option = {
     fields; ["logo","description","title"] /*fields you want*/
-];
-
+};
+```
+**or**
+```js
+var option = {
+    fields; ["*"] /*for all supported field*/
+};
+```
+```js
 /* Callback method */
 webget.getmeta("https://nepsho.github.io/example/meta_tags.html",option,(data)=>{
     console.log(data);
@@ -137,11 +147,11 @@ async function demo(){
     { 
         logo : "https://nepsho.github.io/lib/img/logo.png",
         title : "NepSho",
-        description : ""
+        description : "Promise and callback based website-info getter using metadata of websites..."
     }
 */
 ```
-In case of empty option a default option is automatically set which contain logo, title and description.
+In case of empty option then a default option is automatically set which contain logo, title and description.
 In this API both core function is designed in such way we can user as promise and as callback.
 
 ## licence
